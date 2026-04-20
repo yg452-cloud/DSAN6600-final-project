@@ -1,0 +1,4 @@
+model,display_name,status,predicted_samples,total_test_patches
+unet,U-Net,checkpoint_loaded,500,500
+deeplabv3plus,DeepLabV3+,checkpoint_loaded,500,500
+segformer,SegFormer,checkpoint_loaded,500,500

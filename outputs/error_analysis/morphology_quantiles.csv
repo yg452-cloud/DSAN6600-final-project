@@ -1,0 +1,7 @@
+metric,value
+change_ratio_q25,0.055080413818359375
+change_ratio_q75,0.3169212341308594
+num_components_q50,1.0
+num_components_q75,2.0
+elongation_q75,2.610138252126296
+boundary_complexity_q75,2.9801447558857497

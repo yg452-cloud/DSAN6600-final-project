@@ -1,0 +1,4 @@
+model,display_name,status,device,checkpoint
+unet,U-Net,checkpoint_loaded,cuda,/content/drive/MyDrive/DSAN6600-final-project/outputs/unet/best_unet.pt
+deeplabv3plus,DeepLabV3+,checkpoint_loaded,cuda,/content/drive/MyDrive/DSAN6600-final-project/outputs/deeplabv3plus/best_deeplabv3plus.pt
+segformer,SegFormer,checkpoint_loaded,cuda,/content/drive/MyDrive/DSAN6600-final-project/outputs/segformer/best_segformer.pt
