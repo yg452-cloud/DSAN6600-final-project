@@ -9,11 +9,11 @@ test_split: test
 
 image_size: 256
 batch_size: 8
-num_epochs: 60
+num_epochs: 50
 learning_rate: 0.0001
 weight_decay: 0.0001
-patience: 12
-threshold: 0.45
+patience: 5
+threshold: 0.5
 seed: 42
 
 optimizer: adamw
