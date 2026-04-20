@@ -1,0 +1,10 @@
+project_root: /content/drive/MyDrive/DSAN6600-final-project
+data_root: subset_data
+test_split: test
+image_size: 256
+seed: 42
+analysis_output_dir: outputs/error_analysis
+model_output_roots:
+  unet: outputs/unet
+  deeplabv3plus: outputs/deeplabv3plus
+  segformer: outputs/segformer
