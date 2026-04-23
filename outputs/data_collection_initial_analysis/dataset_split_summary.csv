@@ -1,0 +1,4 @@
+split,time1_images,time2_images,label_masks,aligned_across_all_folders
+train,12000,12000,12000,True
+val,4000,4000,4000,True
+test,4000,4000,4000,True
