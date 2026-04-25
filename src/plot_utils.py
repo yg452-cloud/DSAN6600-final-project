@@ -2,8 +2,7 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 
 
-# Project-level plotting constants
-# These constants make it easier to keep the visual style consistent
+# Shared plotting defaults used across notebooks.
 DEFAULT_FIGSIZE = (8, 5)
 WIDE_FIGSIZE = (10, 5)
 DEFAULT_DPI = 300
@@ -16,8 +15,7 @@ LEGEND_SIZE = 10
 GRID_ALPHA = 0.3
 GRID_LINESTYLE = "--"
 
-# Fixed colors for model names
-# Keep these consistent across all notebooks and figures
+# Fixed colors for model names, kept consistent across figures.
 MODEL_COLORS = {
     "unet": "#1f77b4",
     "deeplabv3plus": "#ff7f0e",

@@ -47,10 +47,10 @@ class SYSUCDDataset(Dataset):
         self.time2_dir = self.split_dir / "time2"
         self.label_dir = self.split_dir / "label"
 
-        # Use filenames from time1 as the master list
+        # Use time1 filenames as the canonical sample IDs.
         self.sample_ids = sorted([p.name for p in self.time1_dir.glob("*.png")])
 
-        # Optional safety check
+        # Verify that every time1 image has matching time2 and label files.
         for file_name in self.sample_ids:
             if not (self.time2_dir / file_name).exists():
                 raise FileNotFoundError(f"Missing time2 file: {file_name}")
@@ -67,7 +67,7 @@ class SYSUCDDataset(Dataset):
         img_t2 = read_rgb_image(self.time2_dir / file_name)
         mask = read_mask(self.label_dir / file_name)
 
-        # Concatenate two RGB images into 6 channels
+        # Stack the two RGB dates into one 6-channel input tensor.
         image_6ch = np.concatenate([img_t1, img_t2], axis=-1)  # (H, W, 6)
 
         image_tensor = torch.tensor(image_6ch).permute(2, 0, 1).float()  # (6, H, W)

@@ -1,5 +1,4 @@
-project_root: /content/drive/MyDrive/DSAN6600-final-project
-data_root: subset_data
+data_root: data
 test_split: test
 image_size: 256
 seed: 42

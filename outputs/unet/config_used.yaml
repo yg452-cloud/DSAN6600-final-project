@@ -1,7 +1,7 @@
 model_name: unet
 input_channels: 6
 num_classes: 1
-data_root: subset_data
+data_root: data
 train_split: train
 val_split: val
 test_split: test
