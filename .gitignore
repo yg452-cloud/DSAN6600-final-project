@@ -72,6 +72,7 @@ data/*
 
 # Large generated prediction dumps
 outputs/*/test_predictions_full/
+outputs/tables/
 
 
 # Keep rendered report artifacts out of git by default
