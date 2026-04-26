@@ -19,9 +19,9 @@
 - Wrote the code-related sections for both the report and the presentation slides.
 
 ## Fangzhou Wang
-- Wrote the report sections on Introduction, Literature Review, Data and References. Summarize and organize the final report content.
+- Wrote the report sections on Introduction, Literature Review, Data and References. Summarized and organized the final report content.
 - Prepared the corresponding presentation sections: Introduction, Literature Review, and References. 
 
 ## Yuxi Shen
-- Wrote the report sections on Methods, Conclusion and Limitations. Summarize and organize the final report content.
+- Wrote the report sections on Methods, Conclusion and Limitations. Summarized and organized the final report content.
 - Prepared the corresponding presentation sections on Conclusion and Limitations.
