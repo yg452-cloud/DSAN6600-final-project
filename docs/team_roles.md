@@ -1,7 +1,7 @@
 # Team Contributions
 
 ## Jing Tan
-- Led work on `notebooks/01_*` and `notebooks/04_*`.
+- Led work on `notebooks/00_*`, `notebooks/01_*` and `notebooks/04_*`.
 - Developed and maintained the corresponding configuration files.
 - Contributed core utilities in `src/data_utils.py` and `src/plot_utils.py`.
 - Handled data preprocessing for the `data/` pipeline and related generated results in `outputs/`.
